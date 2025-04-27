@@ -1,6 +1,7 @@
 {
   "excludes": [
     ".git",
+    "images",
     ".env.template",
     "README.md",
     "templi.json"
