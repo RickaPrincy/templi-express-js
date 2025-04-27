@@ -1,0 +1,45 @@
+{
+  "excludes": [
+    ".env.template",
+    "README.md",
+    "templi.json"
+  ],
+  "keys": [
+    {
+      "label": "What is the value of : app_name ?",
+      "name": "app_name",
+      "type": "INPUT"
+    },
+    {
+      "label": "What is the value of : author ?",
+      "name": "author",
+      "type": "INPUT"
+    },
+    {
+      "label": "What is the value of : description ?",
+      "name": "description",
+      "type": "INPUT",
+      "clean": false
+    },
+    {
+      "label": "What is the value of : license ?",
+      "name": "license",
+      "type": "SELECT",
+      "choices": [
+        "MIT",
+        "ISC"
+      ]
+    },
+    {
+      "label": "What is the value of : private ?",
+      "name": "private",
+      "type": "BOOLEAN",
+      "default": false
+    },
+    {
+      "label": "What is the value of : version ?",
+      "name": "version",
+      "type": "INPUT"
+    }
+  ]
+}

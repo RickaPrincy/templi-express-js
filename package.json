@@ -1,0 +1,19 @@
+{
+  "name": "{{app_name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "main": "src/{{app_name}}.js",
+  "private": {{private}},
+  "scripts": {
+    "start": "node src/{{app_name}}.js"
+  },
+  "keywords": [],
+  "author": "{{author}}",
+  "license": "{{license}}",
+  "type": "module",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.5.0",
+    "express": "5.1.0"
+  }
+}
