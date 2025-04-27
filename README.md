@@ -24,3 +24,11 @@ npm start
 Replace `~/myproject` with your custom folder name or location if you chose a different one. The application should now be running.
 
 # Example of Templi Output
+![1](./images/1.png)
+
+![2](./images/2.png)
+
+![3](./images/3.png)
+
+# More Examples
+You can find more examples [here](https://github.com/RickaPrincy/templi-templates)
