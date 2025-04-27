@@ -1,5 +1,6 @@
 {
   "excludes": [
+    ".git",
     ".env.template",
     "README.md",
     "templi.json"
@@ -7,7 +8,7 @@
   "scripts":{
     "before":[],
     "after": [
-      "cd {{TEMPLI_OUTPUT_FOLDER}}; npm install"
+      "cd {{TEMPLI_OUTPUT_FOLDER}}; npm install; rm -rf .git; git init . ; git add --all; git commit -m \"chore: init project with templi\""
     ]
   },
   "keys": [
@@ -25,7 +26,8 @@
       "label": "Project description:",
       "name": "description",
       "type": "INPUT",
-      "clean": false
+      "clean": false,
+      "required": false
     },
     {
       "label": "Select license:",
