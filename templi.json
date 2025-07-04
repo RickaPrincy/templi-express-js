@@ -16,19 +16,17 @@
     {
       "label": "Application name:",
       "name": "app_name",
-      "type": "INPUT"
+      "type": "TEXT"
     },
     {
       "label": "Author name:",
       "name": "author",
-      "type": "INPUT"
+      "type": "TEXT"
     },
     {
       "label": "Project description:",
       "name": "description",
-      "type": "INPUT",
-      "remove_spaces": false,
-      "required": false
+      "type": "TEXT"
     },
     {
       "label": "Select license:",
@@ -42,13 +40,12 @@
     {
       "label": "Is it private?",
       "name": "private",
-      "type": "BOOLEAN",
-      "default": false
+      "type": "BOOLEAN"
     },
     {
       "label": "Version number:",
       "name": "version",
-      "type": "INPUT"
+      "type": "TEXT"
     }
   ]
 }
